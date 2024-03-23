@@ -7,8 +7,6 @@ if(DIM > 80)
 
 
 function preload() {
-  // let path = 'circuit';
-  // let path = 'img';
   let path = 'circuit';
   for (let i = 0; i < 13; i++) {
     tileImages[i] = loadImage(path + '/' + i + '.png');
@@ -183,9 +181,8 @@ function draw() {
     }
   }
   grid = nextGrid;
-  // noLoop();
   textAlign(CENTER, CENTER);
-  textSize((size / DIM) - (size / DIM) / 2);
+  textSize((size / DIM) / 2);
   for (let i = 0; i < DIM; i++) {
     for (let j = 0; j < DIM; j++) {
       if (!grid[i + j * DIM].collapsed) {
