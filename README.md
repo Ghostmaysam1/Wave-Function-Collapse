@@ -1,8 +1,9 @@
-# Wave-Function-Collapse
-a quick wave function collapse with tiles
+# *Wave-Function-Collapse*
+a quick wave function collapse with new tiles
 
-
-
+# `demo`
+you can find `demo` in [ghostmaysam.ir/wfc](http://ghostmaysam.ir/wfc)
+---
 V 1.0.0
 - optimized
 - shows possibilities
